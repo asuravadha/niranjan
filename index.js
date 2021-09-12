@@ -1,12 +1,15 @@
+var {eid}=require("./content.js");
 
-function eid(name="employ",role="no_record " ){
-this.name=name;
-this.role=role;
-}
 
-eid.prototype.info=function(){
-  console.log(`${this.name} ${this.role}`)
-}
+
+// function eid(name="employ",role="no_record " ){
+// this.name=name;
+// this.role=role;
+// }
+//
+// eid.prototype.info=function(){
+//   console.log(`${this.name} ${this.role}`)
+// }
 
 var emp1=new eid("Eswar","web");
 
